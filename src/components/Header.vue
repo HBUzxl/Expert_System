@@ -78,7 +78,7 @@
             </div>
           </el-menu-item>
   
-          <el-menu-item index="/stats">
+          <el-menu-item index="/statistics">
             <div class="menu-item-content">
               <el-icon><TrendCharts /></el-icon>
               <span>统计</span>

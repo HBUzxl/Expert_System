@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view />
 </template>
 
 <script>
