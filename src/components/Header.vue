@@ -82,7 +82,6 @@
             <div class="menu-item-content">
               <el-icon><TrendCharts /></el-icon>
               <span>统计</span>
-              <el-badge :value="0" class="counter" />
             </div>
           </el-menu-item>
   
@@ -92,10 +91,11 @@
               <span>收藏</span>
             </div>
           </el-menu-item>
-          <el-menu-item index="/withdrawn">
+          <el-menu-item index="/withdraw">
             <div class="menu-item-content">
                 <el-icon><Remove /></el-icon>
                 <span>已撤回</span>
+                <el-badge :value="0" class="counter" />
             </div>
           </el-menu-item>
 
