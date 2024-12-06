@@ -68,6 +68,7 @@
   <style scoped>
   .workbench-container {
     padding: 20px;
+    height: 100%;
   }
   
   .button-grid {
