@@ -8,7 +8,7 @@ import Appointment from '../views/Appointment/index.vue';
 import StatisticsReport from '../views/StatisticsReport/index.vue';
 import FavoritesCases from '../views/FavoritesCases/index.vue';
 import WithdrawCases from '../views/WithdrawCases/index.vue';
-
+import ChangePassword from '../views/UserProfile/ChangePassword.vue';
 
 const routes = [
     {
@@ -50,6 +50,11 @@ const routes = [
         path: '/withdraw',
         name: 'WithdrawCases',
         component: WithdrawCases
+    },
+    {
+        path: '/user/change-password',
+        name: 'ChangePassword',
+        component: ChangePassword
     }
 ];
 

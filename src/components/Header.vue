@@ -14,7 +14,7 @@
             </span>
             <template #dropdown>
               <el-dropdown-menu>
-                <el-dropdown-item>
+                <el-dropdown-item @click="$router.push('/user/change-password')">
                   <el-icon><User /></el-icon>
                   个人信息
                 </el-dropdown-item>
