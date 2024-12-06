@@ -132,7 +132,7 @@
   
   <style scoped>
   .appointment {
-    padding: 0px;
+    padding: 10px;
   }
   
   .operation-bar {
